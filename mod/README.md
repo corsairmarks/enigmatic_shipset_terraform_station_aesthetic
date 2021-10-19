@@ -2,6 +2,8 @@
 
 Do you like terraform stations from my mod [Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084)?  Do you also want to have properly-skinned terraform stations for the [Enigmatic Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2545512457)?  Then this mod is for you!
 
+This mod also addresses phases 2 and three of the Enigmatic habitat not being shaded.
+
 # Changes
 
 Adds a terraform station definition with an active terraforming beam for graphical culture `aoshtai_01`, required for Aesthetic Terraform Stations to apply the correct appearance.
@@ -17,6 +19,17 @@ Built for Stellaris version 3.1.\* "Lem."
 [Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084) enables the very old-school terraform stations as visual markers for terraforming planets.
 
 [Enigmatic Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2545512457) for the original graphics and other ship-related code.
+
+### Known Issues
+
+In order to adjust the graphics for the Enigmatic Shipset habitats, it was necessary to overwrite their entity definitions (text files which tell the game how to attach models and textures, and how to shade them).  Overriding a graphics entity causes an error log - expect four entries similar to these:
+
+```
+[02:51:29][pdx_entity.cpp:2583]: Duplicate of aoshtai_01_habitat_core_entity added to entity system
+[02:51:29][pdx_entity.cpp:2583]: Duplicate of aoshtai_01_habitat_phase_01_entity added to entity system
+[02:51:29][pdx_entity.cpp:2583]: Duplicate of aoshtai_01_habitat_phase_02_entity added to entity system
+[02:51:29][pdx_entity.cpp:2583]: Duplicate of aoshtai_01_habitat_phase_03_entity added to entity system
+```
 
 ## Changelog
 

@@ -1,0 +1,90 @@
+##### Habitat #####
+
+entity = {
+	name = "aoshtai_01_habitat_core_entity"
+	pdxmesh = "aoshtai_01_habitat_mesh"
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "spaceport_hum_idle" stop_on_state_change = yes } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+	state = { name = "death" state_time = 5 looping = no }
+	state = { name = "construction" state_time = 5 }
+	state = { name = "habitat_idle"  state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "habitat_station_hum" stop_on_state_change = yes } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+
+	locator = { name = "large_gun_01" position = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } }
+
+	scale = 1.0
+}
+
+entity = {
+	name = "aoshtai_01_habitat_phase_01_entity"
+	pdxmesh = "aoshtai_01_habitat_frame_mesh"
+
+	attach = { "part1" = "aoshtai_01_habitat_core_entity" }
+
+	scale = 1
+
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" animation = "rotate" animation_speed = 0.2 looping = yes state_time = 5 }
+	state = { name = "construction" animation = "rotate" animation_speed = 0.2 looping = yes state_time = 5 }
+	state = { name = "death" state_time = 5 animation = "rotate" looping = no
+		event = { time = 4.9 node = "explosion_effect" particle = "large_player_ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
+
+entity = {
+	name = "aoshtai_01_habitat_phase_02_entity"
+	pdxmesh = "aoshtai_01_habitat_frame_mesh"
+
+	attach = { "part1" = "aoshtai_01_habitat_core_entity" }
+
+	scale = 1
+
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" animation = "rotate" animation_speed = 0.2 looping = yes state_time = 5 }
+	state = { name = "construction" animation = "rotate" animation_speed = 0.2 looping = yes state_time = 5 }
+	state = { name = "death" state_time = 5 animation = "rotate" looping = no
+		event = { time = 4.9 node = "explosion_effect" particle = "large_player_ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
+
+entity = {
+	name = "aoshtai_01_habitat_phase_03_entity"
+	pdxmesh = "aoshtai_01_habitat_frame_mesh"
+
+	attach = { "part1" = "aoshtai_01_habitat_core_entity" }
+
+	scale = 1
+
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" animation = "rotate" animation_speed = 0.2 looping = yes state_time = 5 }
+	state = { name = "construction" animation = "rotate" animation_speed = 0.2 looping = yes state_time = 5 }
+	state = { name = "death" state_time = 5 animation = "rotate" looping = no
+		event = { time = 4.9 node = "explosion_effect" particle = "large_player_ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+
+	game_data = {
+		shader_type = ship
+		emissive_recolor_crunch = 5.0
+	}
+}
