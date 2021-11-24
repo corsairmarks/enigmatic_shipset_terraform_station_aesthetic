@@ -10,7 +10,7 @@ Adds a terraform station definition with an active terraforming beam for graphic
 
 Should work with practically everything that also works with Enigmatic Shipset and Aesthetic Terraform Stations.  This mod is technically achievement compatible, but its dependencies are not.
 
-Built for Stellaris version 3.1.\* "Lem."
+Built for Stellaris version 3.2.\* "Herbert."
 
 ### Required Dependency Mods
 
@@ -21,6 +21,7 @@ Built for Stellaris version 3.1.\* "Lem."
 ## Changelog
 
 * 1.0.0 Initial version
+* 1.1.0 Mark as compatible with Stellaris version 3.2 "Herbert" - no script changes
 
 ## Source Code
 
