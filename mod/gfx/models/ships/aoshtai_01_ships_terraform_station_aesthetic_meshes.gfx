@@ -1,0 +1,7 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "aoshtai_01_terraform_station_mesh"
+		file = "gfx/models/ships/Civilian_Assets/terraform_station/aoshtai_01_terraform_station.mesh"
+	}
+}
