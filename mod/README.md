@@ -2,6 +2,8 @@
 
 Do you like terraform stations from my mod [Aesthetic Terraform Stations](https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084)?  Do you also want to have properly-skinned terraform stations for the [Enigmatic Shipset](https://steamcommunity.com/sharedfiles/filedetails/?id=2545512457)?  Then this mod is for you!
 
+MadamLava hand-crafted a special model just for terraform stations - available only with this mod!
+
 # Changes
 
 Adds a terraform station definition with an active terraforming beam for graphical culture `aoshtai_01`, required for Aesthetic Terraform Stations to apply the correct appearance.
@@ -22,6 +24,7 @@ Built for Stellaris version 3.2.\* "Herbert."
 
 * 1.0.0 Initial version
 * 1.1.0 Mark as compatible with Stellaris version 3.2 "Herbert" - no script changes
+* 1.2.0 New, unique model for the Enigmatic terraform station - made by MadamLava herself!
 
 ## Source Code
 
