@@ -6,7 +6,7 @@ dependencies={
 tags={
 	"Graphics"
 }
-version="1.3.0"
+version="1.4.0"
 picture="thumbnail.png"
-supported_version="3.3.*"
+supported_version="3.4.*"
 remote_file_id="2631808667"
