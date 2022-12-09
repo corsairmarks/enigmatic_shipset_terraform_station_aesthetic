@@ -9,7 +9,7 @@ Adds a terraform station definition with an active terraforming beam for graphic
 [h2]Compatibility[/h2]
 Should work with practically everything that also works with Enigmatic Shipset and Aesthetic Terraform Stations.  This mod is technically achievement compatible, but its dependencies are not.
 
-Built for Stellaris version 3.4 "Cepheus" and backwards-compatible with versions 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem", and 3.0 "Dick."
+Built for Stellaris version 3.6 "Orion" and backwards-compatible with versions 3.5 "Fornax," 3.4 "Cepheus," 3.3 "Libra," 3.2 "Herbert," 3.1 "Lem", and 3.0 "Dick."
 
 [h3]Required Dependency Mods[/h3]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2622411084]Aesthetic Terraform Stations[/url] enables the very old-school terraform stations as visual markers for terraforming planets.
@@ -22,4 +22,4 @@ See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2631808667
 [h2]Source Code[/h2]
 Hosted on [url=https://github.com/corsairmarks/enigmatic_shipset_terraform_station_aesthetic]GitHub[/url]
 
-[url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]
+[url=https://discord.gg/2qjkAF8DY7][img]https://i.imgur.com/4Und3QN.png[/img][/url]
